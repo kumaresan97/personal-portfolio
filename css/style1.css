@@ -1,0 +1,169 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+.container{
+display: flex;
+width: 900px;
+margin: 20px auto;
+
+}
+.rightsection{
+    flex-basis: 65%;
+    background-color:white;
+    padding: 0 40px;
+    
+}
+
+/*
+.spanLabel {
+    font-size: 15px
+}*/
+.leftsection{
+    flex-basis: 35%;
+    background-color: rgb(241, 150, 173);
+    padding:  0 40px;
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+.imgsec{
+    /* padding: 0 30px;
+    padding-bottom: 15px; */
+    text-align: center;
+}
+.imgsec img{
+    background-color:#fff;
+    border-radius: 50%;
+    width: 130px;
+    margin-bottom: 30px;
+    height: 130px;
+}
+
+.spanLabel{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.objsec{
+    margin: 30px 0px;
+}
+.contact-sec div {
+    line-height: 2;
+}
+
+
+.objsec p{
+    font-size: 13px;
+    color: #fff;
+    padding-top: 20px;
+}
+.contact-sec{
+    margin-bottom:30px;
+}
+
+.contact-sec div:first-child {
+    padding-top: 20px;
+}
+
+.contact-sec a{
+    color: #fff;
+    text-decoration: none;
+}
+.contact-sec a i{
+    padding-right: 20px;
+}
+
+.edu-sec {
+    padding-bottom: 10px;
+}
+
+.edu-sec div {
+    line-height:1.5;
+}
+               
+ .headerLabel{
+    width: 100px;
+    position: relative;
+    top: 8px;
+    left: 50px;
+    padding: 4px;
+    background: #fff;
+    
+}
+.outerContainer {
+    width: 400px;
+    border: 1px solid #000;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.outerContainer ul {
+    list-style: disc;
+    padding: 0 30px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.interests ul {
+    list-style: disc;
+    padding: 0 30px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+.boxsec{
+    padding: 0 30px;
+    
+}
+.boxsec .headerLabel {
+    width: fit-content;
+    position: relative;
+    top: 8px;
+    left: 50px;
+    padding: 4px;
+    background: #fff;
+}
+
+ .headerLabel {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+}
+.edu-sec .classType
+{
+
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+   padding:5px 10px; 
+}
+.edu-sec .yearConatiner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.edu-sec .schoolName{
+font-size: 16px;
+text-transform: capitalize;
+ padding: 5px 10px; 
+}
+.edu-sec .place{
+    font-size: 14px;
+    text-transform: capitalize;
+   padding: 5px 10px;
+}
+.edu-sec .year{
+    font-size: 14px;
+}
+.edu-sec .percentage{
+    font-size: 14px;
+}
+.emptyBorder {
+    border-bottom: 2px solid #fff;
+    margin-bottom: 20px;
+}
